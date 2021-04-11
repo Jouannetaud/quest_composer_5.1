@@ -1,0 +1,17 @@
+{
+    "name": "remi/composer-autoload",
+    "description": "projet quest composer",
+    "authors": [
+        {
+            "name": "jouannetaud",
+            "email": "remijouannetaud10@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+    
+}
