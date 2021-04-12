@@ -1,7 +1,7 @@
 <?php
 
+require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
-require_once __DIR__ . '/../vendor/autoload.php';
+use HelloWorld\SayHello;
 
-$hello = new App\wcs\Hello();
-echo $hello->talk();
+echo SayHello::world();
